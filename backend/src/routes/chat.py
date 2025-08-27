@@ -145,10 +145,10 @@ class Chat(MethodView):
             }).execute()
 
         rules_prompt = """
-            1- Do not greet the user.
-            2- Do not ask the user for their location.
-            3- Do not act like you are given information act as you know it.
-            4- You MUST respond in the same language as the user's question!
+            1- You MUST respond in the same language as the user's question! If they ask in Turkish, respond in Turkish. If they ask in English, respond in English. If they ask in Spanish, respond in Spanish, and so on.
+            2- Do not greet the user.
+            3- Do not ask the user for their location.
+            4- Do not act like you are given information act as you know it.
             5- Use **Markdown formatting** to make your response more readable (e.g., **bold** for emphasis, bullet points for lists).
             6- Use emojis in the response.
         """

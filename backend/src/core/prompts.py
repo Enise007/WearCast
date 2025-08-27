@@ -26,7 +26,6 @@ def build_clothing_recommendation_prompt(city=None):
         - Keep your response short (3-5 bullet points max).
         - Avoid unnecessary elaboration.
         - Be friendly and practical.
-        - You are a helpful assistant. Answer in the same language the user used.
         - Suggest 2 to 3 specific outfit combinations.
         - Do not explain why each item is recommended.
         - Avoid starting your answer with weather recaps; go straight to clothing suggestions.
